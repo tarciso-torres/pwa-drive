@@ -1,7 +1,7 @@
 class Init {
-    constructor() {
-        console.log('Olá Jesus');
+    constructor(name) {
+        console.log(`Olá ${name}`);
     }
 }
 
-new Init();
+new Init('Tarciso');
