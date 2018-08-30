@@ -1,5 +1,3 @@
-require('./style.scss');
-
 class Init {
     constructor() {
         let component = require('../template/')
